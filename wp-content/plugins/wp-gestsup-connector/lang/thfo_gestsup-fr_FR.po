@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GestSup Connector\n"
+"POT-Creation-Date: 2015-09-16 19:34+0100\n"
+"PO-Revision-Date: 2015-09-16 19:36+0100\n"
+"Last-Translator: Sebastien SERRE <sebastien@thivinfo.com>\n"
+"Language-Team: Thivinfo <sebastien@thivinfo.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../gestsup-connector.php:43
+msgid "Hello, Many thanx to use this plugin"
+msgstr "Bonjour, merci beaucoup d'utiliser ce plugin"
+
+#: ../gestsup-connector.php:44
+msgid "If You Enjoy this plugin... encourage me!"
+msgstr "Si vous aimez ce plugin... encouragez moi à la développer!"
+
+#: ../gestsup-connector.php:53
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../gestsup-connector.php:55
+msgid "How-to add a form in my website to create a ticket?"
+msgstr "Comment ajouter un formulaire d'ajout de ticket sur mon site?"
+
+#: ../gestsup-connector.php:57
+msgid "Add the shortcode [gestsup_add_ticket] in a page you've created"
+msgstr ""
+"Ajoutez le code court [gestsup_add_ticket] dans une page que vous aurez créé."
+
+#: ../class/gestsup-shortcode-add-ticket.php:20
+msgid "Your email:"
+msgstr "Votre mail:"
+
+#: ../class/gestsup-shortcode-add-ticket.php:26
+msgid "Title:"
+msgstr "Titre:"
+
+#: ../class/gestsup-shortcode-add-ticket.php:28
+msgid "Ticket:"
+msgstr "Ticket:"
+
+#: ../class/gestsup-shortcode-add-ticket.php:30
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../class/gestsup-shortcode-add-ticket.php:35
+msgid ""
+"Your mail adress isn't registred in our database. Please contact our admin"
+msgstr ""
+"Votre adresse mail n'existe pas dans notre base de données. Merci de "
+"contacter votre administrateur"
+
+#: ../class/gestsup_options.php:22 ../class/gestsup_options.php:32
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../class/gestsup_options.php:44 ../class/gestsup_options.php:77
+msgid "Save your GestSup db credentials"
+msgstr ""
+"Enregistrer vos informations de connexion à votre base de données GestSup"
+
+#: ../class/gestsup_options.php:49
+msgid "Save your GestSup defaults infos"
+msgstr "Sauvegarder vos réglages GestSup"
+
+#: ../class/gestsup_options.php:54
+msgid "Host Name"
+msgstr "Hôte"
+
+#: ../class/gestsup_options.php:59
+msgid "DB Name"
+msgstr "Nom de la base de données"
+
+#: ../class/gestsup_options.php:63
+msgid "DB UserName"
+msgstr "Nom de l'utilisateur de la base de données"
+
+#: ../class/gestsup_options.php:67
+msgid "DB Password"
+msgstr "mot de passe de la base de données"
+
+#: ../class/gestsup_options.php:73
+msgid "By default technician"
+msgstr "technicien par défaut"
+
+#: ../class/gestsup_options.php:81
+msgid "Save your GestSup by defaults infos"
+msgstr "Enregistrer vos réglages par défaut"
+
+#: ../class/gestsup_options.php:151
+msgid "Failed to connect to MySQL, please check your login credentials"
+msgstr ""
+"Impossible de se connecter à la base de données. Vérifiez vos information de "
+"connexion."
+
+#: ../class/gestsup_options.php:153
+msgid "Succesfully connected to the database"
+msgstr "Connecté à la base de données!"

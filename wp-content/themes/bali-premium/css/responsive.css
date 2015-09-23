@@ -1,0 +1,285 @@
+/* #Tablet (Landscape)
+@media only screen and (min-width: 959px) and (max-width: 1177px)
+----------------------------------------------------------------------*/
+@media (max-width: 1199px) {
+	body {overflow-x: hidden}
+	.boxed-margin {margin: 10px auto}
+	.container { width: 1000px }
+	.search-wrapper button { right: 12px; top: 13px; }
+	.tabs li a {padding: 10px 12px}
+	.sf-menu li {margin: 0 0 0 4px;padding: 0}
+	.sf-menu a { padding-left: 15px; padding-right: 13px; }
+	
+	.big-slider h3 { top: 88px; }
+	.big-slider p { top: 140px; }
+	.big-slider p.flex-price { font-size: 12px; top: 60px; }
+	.big-slider .flex-direction-nav a { top: 200px !important;}
+	.big-slider .flex-direction-nav a i  { font-size: 30px; }
+	.big-slider .flex-direction-nav .flex-next { left: 53px !important }
+
+	.center-capture .owl-capture { top: 18% }
+	
+	.travel-search { top: -160px; }
+	.travel-search.right { right: -20px; top: -350px }
+	.travel-search.toggle { top: -420px; }
+	
+	.search-tour-2 { top: -200px }
+	.home-search-tabs-content { width: 700px; }
+	
+	.travel-search .accordion-content { margin-left: 0; }
+	
+	.tabs li a { padding: 8px 13px; font-size: 14px; } 
+	.travel-search .tabs li a.active { padding: 8px 13px 10px; }
+	
+	ul.facilities li { width: 205px; }
+	.add-room .two-fourth { width: 63px; }
+	.sort-by-wrapper .sort-option { width: 103px; }
+	
+	.payment-wrapper { padding: 30px 60px 30px 30px; }
+	.list-item-label { padding: 10px; }
+	.list-item .list-item-price{ top: 10px; right: 8px; }
+	.list-item-label h4 { padding-right: 30px; }
+	.product-3 .list-item-price { margin-right: -20px; margin-top: -43px; }
+	.list-style .list-item .list-item-price{ top: 80px; right: 8px; }
+	.list-style .list-item-label { width: 450px; }
+	
+}
+
+@media only screen and (min-width: 959px) and (max-width: 1177px) {
+	.list-style .list-item-label, .list-style .list-item-label p {font-size: 13px; line-height: 18px; }
+	.exposureWrapper { width: 720px; height: 405px }
+	.availability .datepicker-wrapper { width: 245px; }
+	ul.minimal-label.pd-img li .minimal-price { top: 60px; right: 10px; }
+	ul.minimal-label.pd-img li { padding: 10px 10px 20px 15px; }
+	
+}
+
+/* #Tablet (Portrait)
+@media only screen and (min-width: 768px) and (max-width: 991px)
+----------------------------------------------------------------------*/
+@media (max-width: 991px) {
+	body {overflow-x: hidden}
+	.container { width: 750px }
+
+	.large-header { padding-right: 50px; }
+	#mobilepro, .subarrow { display: block; }
+	.search-wrapper button { right: -35px; top: 10px; }
+	#search-collapse { right: -10px; top: 56px;}
+	.subarrow { display: block; z-index: 99; position: absolute;top: 14px;right: 10px; cursor: pointer; font-size: 16px; }
+	.sf-menu { position: absolute;top: 69px;right: 50px; background: #323c3f; background: rgba(50, 60, 63, 0.9); padding: 0 !important; margin: 0 !important; -webkit-box-shadow: 0px 12px 22px -1px rgba(0,0,0,0.75); -moz-box-shadow: 0px 12px 22px -1px rgba(0,0,0,0.75); box-shadow: 0px 12px 22px -1px rgba(0,0,0,0.75); border-top: 2px solid #7F64B5; }
+	.sf-menu a.sf-with-ul {margin-right: 30px !important}
+	.sf-menu a span.icon { display: none; }
+	.sf-menu > li a {padding-left: 20px !important;}
+	.sf-menu i { color: #FFF; } 
+	.sf-menu li a {color: #333}
+	.sf-menu, .sf-sub-indicator {width: 40%!important;display: none; margin: 4px 0 !important }
+	.sf-menu li { margin-bottom: 1px; margin-left: 0 }
+	.sf-menu.xactive {display: block!important;}
+	.sf-menu li {float: none!important;display: block!important;width: 100%!important;}
+	.sf-menu ul:before { content: ""; border-width: 0 0 0 0 !important }
+	.sf-menu > li.sfHover:before {color: #000;background: none;width: 0;height: 0px;}
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { padding: 0 !important }
+	ul.sf-menu li:hover ul, ul.sf-menu li.sfHover ul, ul.sf-menu li ul { margin-top: 4px }
+	.sf-menu li { float: none !important; display: block !important; width: 100% !important;overflow: hidden; }
+	.sf-menu li a, .sf-menu li:first-child a, .sf-menu ul li, .sf-menu li.current { float: none !important; border: 0; }
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul {box-shadow: none;-webkit-animation: initial;animation: initial;-moz-animation: initial;-o-animation: initial; }
+	.sf-menu li li {left: 0px; border-bottom: #FFF; border-bottom: 1px solid #464F52;}
+	.sf-menu li li:last-child {border-bottom: 0;}
+	.sf-menu ul {position:static !important; display: none !important; width: 100%; }
+	.xpopdrop > ul {display: block !important; visibility: inherit !important }
+	.sf-menu li:hover > a, .sf-menu li > a:hover, .sf-menu li.current > a {border: 0}
+	.sf-menu li li, .sfHover, .sf-menu li:hover, .sf-menu li li.current { background: none !important }
+	.sf-menu li li:hover > a, .sf-menu li li > a:hover, .sf-menu li li.current > a {color: #ddd}
+	.sf-menu a {padding: 10px 0; width: auto;}
+	.sf-menu li li:first-child { border-top: 0; margin-top: -3px; }
+	ul.mega li.title { background: rgba(50, 60, 63, 0.9)!important; }
+
+	.big-slider h3 { font-size: 24px; }
+	.big-slider p { font-size: 16px; }
+	
+	.header_bag {padding: 4px 4px}
+	#header .social a {margin: 0 0 0 2px}
+
+	.header_bag span {display: none}
+
+	#header .search {margin: 24px 0 24px 20px}
+	.logo {margin: 8px 0}
+	h3 {font-size: 16px}
+	
+	.center-capture .owlSliderNavigation { bottom: 30%; right: 45%; }
+	
+	.travel-search, .search-tour-2 { position: relative; top: 0; margin-top: 40px; padding-right: 0; }
+	.home-search-tabs-content { width: 460px; }
+	
+	.travel-search.right { right: 0px; top: -350px }
+	.travel-search.toggle { position: relative; top: 0; margin-top: 40px; width: 100% }
+	
+	.tabs li a { padding: 8px 8px; font-size: 14px; }
+	
+	.list-style .list-item-image { width: 470px; }
+	.list-style .list-item-label { width: 470px; }
+	.list-style .list-item-label, .list-style .list-item-label p { font-size: 13px; line-height: 19px; }
+	ul.minimal-label.pd-img li { height: auto;}
+	ul.minimal-label.pd-img li a { font-size: 13px; line-height: 17px }
+	
+	ul.user-review li .left { width: 35%; }
+	ul.user-review li .right { width: 65%; }
+	#detail-slider ul.exposureThumbs li { width: 173px; }
+	#left .left-arrow, #right .right-arrow { padding: 67px 0; }
+	ul.detail-item > li  { padding: 310px 140px 25px 0; }
+	ul.detail-item > li img { width: 430px}
+	.detail-meta { top: 310px; padding: 10px 20px; }
+	
+	.availability .datepicker-wrapper { width: 120px; }
+	.payment-wrapper { padding: 30px 20px; }
+	
+	ul.comment-item li > ul  li { margin-left: -55px; }
+	
+	.sm-mb { margin-bottom: 15px }
+	.hidden-xs-ms { display: none !important; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.exposureWrapper { width: 472px; height: 264px }
+}
+
+
+/* #Mobile (Landscape)
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+}
+----------------------------------------------------------------------*/
+@media (max-width: 767px) {
+	body {overflow-x: hidden; font-size: 13px; }
+	.container { width: 480px }
+	
+	.sidebar, .post {width: 100%;margin: 0 0 40px}
+
+	.sf-menu, .sf-sub-indicator { width: 80%!important; }
+	.sf-menu { right: 13px; }
+	
+	.header_bag {padding: 4px}
+	#header .social a {margin: 0 0 0 2px}
+
+	.header_bag span {display: none}
+
+	#header .search {margin: 24px 0 24px 20px}
+	.services [class^="grid_"]:before {background: none !important}
+	.logo {margin: 8px 0}
+	h3 {font-size: 16px}
+	
+	.big-slider h3 { font-size: 18px; top: 40px; left: 10px; padding: 3px 5px; }
+	.big-slider p { font-size: 14px; top: 68px; left: 10px; padding: 2px 5px; }
+	.big-slider p.flex-price { font-size: 12px; left: 10px; top: 20px; padding: 1px 5px; }
+	.big-slider .flex-direction-nav a { top: 115px !important;}
+	.big-slider .flex-direction-nav a i  { font-size: 20px; }
+	.big-slider .flex-direction-nav .flex-next { left: 43px !important }
+	
+	.center-capture .owlSliderNavigation { bottom: 10%; right: 43%;  }
+	.center-capture .owl-capture h2 a { font-size: 26px; line-height: 28px; }
+	
+	.travel-search.right { width: 100%; position: relative; top: 0; margin-top: 40px; }
+	.search-tour-2 .home-search-tabs, .home-search-tabs-content { width: 100% }
+	.search-tour-2 .home-search-tabs li:nth-child(odd) { width: 200px }
+	
+	.tabs li a { padding: 5px 8px; font-size: 13px; }
+	.travel-search .tabs li a.active { padding: 5px 8px 7px; }
+	.travel-search .btn { margin: 15px 0; }
+	
+	.add-room .two-fourth { width: 130px; }
+	.list-style .list-item-image { width: 450px; }
+	.list-style .list-item-label { width: 450px; }
+	#detail-slider ul.exposureThumbs li { width: 163px; }
+	#left .left-arrow, #right .right-arrow { padding: 64px 0; }
+	.availability .datepicker-wrapper { width: 109px; }
+	.availability .two-fourth { width: 80px; }
+	.availability .one-fourth { width: 75px; }
+	.blog-details { padding: 20px; }
+	.blog-posted { left: 10px; top: -96px; padding-bottom: 30px; font-size: 12px; line-height: 16px; width: 80px; background: rgba(127,100,181,0.8); }
+	.blog-type { left: 40px; top: -36px; font-size: 20px; color: #FFF; }
+	.author-details { margin-left: 80px; padding-left: 10px; }
+	.author-label { width: 70px; }
+	
+	.mt-10-xs { margin-top: 10px; }
+	.xs-mb-10 { margin-bottom: 10px; }
+	.xs-mb { margin-bottom: 20px; }
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	ul.minimal-label.pd-img li { height: auto; padding: 10px 10px 35px 15px; }
+	.search-filter .search-tabs li:nth-child(odd) { width: 120px; }
+	.search-filter .search-tabs li:nth-child(even) { width: 210px; }
+	.exposureWrapper { width: 452px; height: 253px }
+}
+
+/*  #Mobile (Portrait) 320px
+@media only screen and (min-width: 100px) and (max-width: 480px)
+----------------------------------------------------------------------*/
+@media (max-width: 479px) {
+	body {overflow-x: hidden}
+	.container { width: 290px; padding: 0; }
+	
+	.header-register .br, .header-login .br { border-right: 0; }
+	.login_show { right: -60px; }
+	.register_show { right: -60px;}
+	
+	.sf-menu, .sf-sub-indicator { width: 90%!important; }
+	
+	
+	#header .social a {margin: 0 0 0 2px}
+
+	.header_bag span {display: none}
+
+	#header .search {margin: 24px 0 24px 20px}
+	.services [class^="grid_"]:before {background: none !important}
+	.logo {margin: 8px 0}
+	h3 {font-size: 16px}
+	
+	.center-capture .owl-capture h2 a { font-size: 22px; line-height: 24px; }
+	.center-capture .owl-capture  p { font-size: 14px; line-height: 18px} 
+	.center-capture .owlSliderNavigation { top: 60px; right: 5px;  }
+	.center-capture .owlSliderNavigation a.owlSlider-prev { left: -240px; }
+	
+	.search-tour-2 .home-search-tabs li:nth-child(odd) { width: 100px }
+	
+	.tabs { background: #A59B8E; border: 3px solid #8F7B61; border-bottom: 0; }
+	.tabs li a { padding: 8px 14px; font-size: 13px; }
+	.travel-search .tabs { border: 0; background: none } 
+	.travel-search .tabs li a { padding: 9px 18px 7px; text-indent: -600px; width: 52px; }
+	.travel-search .tabs li a.active { padding: 9px 18px 9px; }
+	
+	.payment-wrapper ul.tabs { background: #FFF; border: 0; border-bottom: 0; }
+	ul.user-review li .left { width: 45%; }
+	ul.user-review li .right { width: 55%; }
+	.list-item-label { padding: 15px; }
+	.list-item-label h4 { font-size: 14px; }
+	.list-item .list-item-price{ top: 10px; right: 10px; }
+	.list-style .list-item-image { width: 290px; }
+	.list-style .list-item-label { width: 290px; height: 280px; }
+	.list-style .list-item .list-item-price{ top: 90px; right: 10px; }
+	ul.minimal-label.pd-img li { height: auto; padding: 10px 40px 35px 15px; }
+	ul.minimal-label.pd-img li .minimal-price { top: 10px; right: 5px; }
+	#detail-slider ul.exposureThumbs li { width: 174px; }
+	#left .left-arrow, #right .right-arrow { padding: 67px 0; }
+	.availability .datepicker-wrapper { width: 190px; }
+	.availability .two-fourth { width: 78px; }
+	.availability .one-fourth { width: 75px; }
+	ul.detail-item > li  { padding: 200px 75px 25px 0; }
+	ul.detail-item > li img { width: 250px}
+	.detail-meta { top: 210px; padding: 10px 0px; }
+	.detail-meta a.btn { padding: 5px; font-size: 12px }
+	.detail-header-name  { border-bottom: 1px solid #EBE8E6; border-right: 0; width: 100%; margin-bottom: 10px; padding-bottom: 10px; }
+	.detail-header-review { top: 90px; }
+	.blog-author .social { width: 80px; position: absolute; top: 80px; left: -85px; }
+	.tag-cloud a { margin-bottom: 10px; }
+	ul.comment-item li { padding-left: 60px; }
+	.comment-item  .comment-avatar { width: 50px; height: 50px; }
+	ul.comment-item li > ul  li { margin-left: -50px; }
+	.exposureWrapper { width: 292px; height: 163px }
+	
+	
+	.xss-mb { margin-bottom: 20px; }
+	.xss-mb-10 { margin-bottom: 10px; }
+	.header-currency:after { border-left: 0; } 
+}
